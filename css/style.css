@@ -1,6 +1,11 @@
 body {
-	/*width: 2000px;
-	margin: 0 auto;*/
+
+
+}
+
+#xolci {
+	margin-bottom: 5vw;
+	color: transparent;
 }
 
 
@@ -51,21 +56,6 @@ img.logo-images:hover{
 	width: 10%;
 }
 
-/*.nav-parrent {
- display: flex;
- justify-content: flex-end;
-}
-*/
-
-/*.menu-parrent {
- margin-top: 1%;
- margin-right: 3%;
- display: flex;
- justify-content: space-between;
- width: 25%;
-
-}
-*/
 
 
 .menu-parrent {
@@ -157,69 +147,10 @@ img.logo-images:hover{
 	border-color: black;
 }
 
-/*.menu:hover{
-	transition-duration: 0.3s;
-	color: white;
-	font-size: 19px;
-	margin-left: 30px;
-	vertical-align: top;
-	display: inline-block;
-	width: 170px;
-	height: 55px;
-	text-align: center;
-	padding-top: 13px;
-	border: solid;
-	background-color: black;
-	box-sizing: border-box;
-	border-color: white;
-	border-width: 1px;
-	font-family: Poppins;
-}
 
-
-
-
-.anim {
-	color: black;
-	font-size: 18px;
-	margin-left: 2%;
-	vertical-align: top;
-	display: inline-block;
-	width: 170px;
-	height: 55px;
-	text-align: center;
-	padding-top: 9px;
-	border: solid;
-	background-color: white;
-	box-sizing: border-box;
-	border-color: black;
-	border-width: 1px;
-	font-family: Poppins;
-}
-
-
-.anim:hover{
-	transition-duration: 0.3s;
-	color: white;
-	font-size: 19px;
-	margin-left: 30px;
-	vertical-align: top;
-	display: inline-block;
-	width: 170px;
-	height: 55px;
-	text-align: center;
-	padding-top: 8px;
-	border: solid;
-	background-color: black;
-	box-sizing: border-box;
-	border-color: white;
-	border-width: 1px;
-	font-family: Poppins;
-}
-*/
 
 .first-banner {
-	margin-bottom: 10%;
+	margin-bottom: 1%;
 }
 
 .baner-parrent {
@@ -236,8 +167,8 @@ img.logo-images:hover{
 	top: 0;
 	z-index: 2;
 	margin-top: 13%;
-	margin-left: 2%;
-	font-size: 4.7vw;
+	margin-left: 1.1%;
+	font-size: 4.1vw;
 }
 
 .baner-text2 {
@@ -245,9 +176,9 @@ img.logo-images:hover{
 	top: 0;
 	z-index: 2;
 	margin-top: 20%;
-	margin-left: 22%;
-	font-size: 3.5vw;
-	color: yellow;
+	margin-left: 20%;
+	font-size: 3vw;
+	color: #d6f043;
 
 }
 
@@ -271,6 +202,7 @@ img.logo-images:hover{
 	margin-top: 10%;
 	padding-top: 4%;
 	margin-left: 8%;
+	padding-bottom: 3%;
 	
 
 }
@@ -378,9 +310,20 @@ img.images:hover{
 
 
 .body-form {
-	width: 2000px;
-	background-color: #13131f;
+	width: 100%;
+	height: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
  form {
@@ -388,22 +331,22 @@ img.images:hover{
  }
 
  .up-title {
- 	font-size: 35px;
- 	margin-left: 50px;
+ 	font-size: 2.2vw;
+ 	margin-left: 6%;
  }
 
  .mid-title{
-    margin-top: 10px;
-    margin-left: 50px;
-    font-size: 22px;
+    margin-top: 3%;
+    margin-left: 4%;
+    font-size: 1vw;
 
  }
 
  .down-title {
 
- 	margin-top: 10px;
-    margin-left: 50px;
-    font-size: 18px;
+ 	margin-top: 2%;
+    margin-left: 4%;
+    font-size: 1vw;
 
  }
 
@@ -425,12 +368,12 @@ img.images:hover{
 
  .title-text {
  	color: #d8d8f2;
- 	width: 500px;
- 	height: 170px;
+ 	width: 115%;
+ 	height: 10vw;
  	background-color: #808080; opacity:0.9;
  	box-sizing: border-box;
- 	padding-left: 30px;
- 	padding-top: 25px;
+ 	padding-left: 3%;
+ 	padding-top: 2vw;
  	border-radius: 10px;
  }
 
@@ -443,8 +386,8 @@ img.images:hover{
  	position: absolute;
  	top: 0;
  	z-index: 7;
- 	margin-top: 400px;
- 	margin-left: 30px
+ 	margin-top: 30vw;
+ 	margin-left: 2%;
  	
 
  }
@@ -452,17 +395,33 @@ img.images:hover{
  .button-text {
  	display: inline-block;
  	color: white;
- 	font-size: 22px;
- 	width: 160px;
- 	height: 50px;
+ 	font-size: 1.3vw;
+ 	width: 170%;
+ 	height: 4vw;
  	background-color: #808080; opacity:0.9;
  	box-sizing: border-box;
  	text-align: center;
- 	padding-top: 13px;
+ 	padding-top: 1.5vw;
  	border-radius: 10px;
  }
 
+
+
   .button-text:hover {
+  	transition-duration: 0.3s;
+ 	display: inline-block;
+ 	color: white;
+ 	font-size: 1.3vw;
+ 	width: 170%;
+ 	height: 4vw;
+ 	background-color: black; opacity:0.9;
+ 	box-sizing: border-box;
+ 	text-align: center;
+ 	padding-top: 1.5vw;
+ 	border-radius: 10px;
+ }
+
+/*  .button-text:hover {
   	transition-duration: 0.3s;
  	color: white;
  	width: 161px;
@@ -473,4 +432,4 @@ img.images:hover{
  	padding-top: 14px;
  	border-radius: 14px;
  }
-
+*/

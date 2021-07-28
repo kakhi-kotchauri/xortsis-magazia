@@ -299,9 +299,18 @@ img.images:hover{
 
 
 
+
+
+
+
+
 @media only screen and (max-width: 620px) {
 
 
+#xolci {
+	margin-bottom: 0.1vw;
+	color: transparent;
+}
 
 
 
@@ -311,9 +320,9 @@ img.images:hover{
  display: inline-block;
   width:6.3%;
   overflow:hidden;
-  margin-top: 0.1%;
+  margin-top: 0.35%;
   margin-right: 1%;
-  margin-left: 2%;
+  margin-left: 1%;
 }
 
 
@@ -360,9 +369,9 @@ img.images:hover{
 
 .menu-parrent {
 	position: fixed;
- width: 100%;
+	 width: 100%;
  height: 10vw;
- margin-left: 14%;
+ margin-left: 10%;
  margin-top: 1.3%;
 
 }
@@ -371,12 +380,12 @@ img.images:hover{
 
 .menu {
 	vertical-align: top;
-	margin-right:2%;
+	margin-right:0.5%;
 	display: inline-block;
-	font-size: 1.8vw;
+	font-size: 2.6vw;
 	color:black;
-	width: 15%;
-	height: 40%;
+	width: 16.5%;
+	height: 44%;
 	box-sizing: border-box;
 	background-color: #ff5e5e;
 	padding-top: 0.7%;
@@ -389,14 +398,13 @@ img.images:hover{
 
 
 .menu:hover {
-	transition-duration: 0.33s;
-	vertical-align: top;
-	margin-right:2%;
+		vertical-align: top;
+	margin-right:0.5%;
 	display: inline-block;
-	font-size: 1.8vw;
+	font-size: 2.6vw;
 	color:white;
-	width: 15%;
-	height: 40%;
+	width: 16.5%;
+	height: 44%;
 	box-sizing: border-box;
 	background-color: black;
 	padding-top: 0.7%;
@@ -413,15 +421,15 @@ img.images:hover{
 
 .anim {
 	vertical-align: top;
-	margin-right:2%;
+	margin-right:1%;
 	display: inline-block;
-	font-size: 1.75vw;
+	font-size: 1.8vw;
 	color:black;
-	width: 15%;
-	height: 40%;
+	width: 16.5%;
+	height: 44%;
 	box-sizing: border-box;
 	background-color: white;
-	padding-top: 0.05%;
+	padding-top: 0.15%;
 	text-align: center;
 	border: solid;
 	border-width: 0.01vw;
@@ -430,15 +438,15 @@ img.images:hover{
 
 .anim:hover {
 vertical-align: top;
-	margin-right:2%;
+	margin-right:1%;
 	display: inline-block;
-	font-size: 1.75vw;
+	font-size: 1.8vw;
 	color:white;
-	width: 15%;
-	height: 40%;
+	width: 16.5%;
+	height: 44%;
 	box-sizing: border-box;
 	background-color: black;
-	padding-top: 0.05%;
+	padding-top: 0.15%;
 	text-align: center;
 	border: solid;
 	border-width: 0.01vw;
@@ -451,40 +459,55 @@ header {
   position: sticky;
   top: 0;
   z-index: 200;
-  height: 5.9vw;
+  height: 6.4vw;
   width: 100%;
   background-color: white;
 }
 
 
+
+.div-contact {
+	margin-top: 6%;
+}
+
+
 .contact-title {
-	font-size: 4vw;
+	font-size: 5vw;
 }
 
 .phone {
-	margin-top: 3%; 
-	font-size: 3vw;
-	margin-bottom: 3.5%;
+	margin-top: 4%; 
+	font-size: 4vw;
+	margin-bottom: 4.5%;
 }
 
 .number {
-	margin-top: 1%;
-	font-size: 2.5vw;
+	margin-top: 2%;
+	font-size: 3.5vw;
 }
 
 .a-link {
-	font-size: 2.5vw;
+	font-size: 3.5vw;
 	color: #30344d;
 }
 
 
 .sec {
-	height: 40vw;
+	height: 50vw;
 }
 
 
 
 }
+
+
+
+
+
+
+
+
+
 
 
 .price{
